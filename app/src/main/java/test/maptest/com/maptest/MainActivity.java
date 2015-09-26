@@ -48,7 +48,7 @@ private String sampleData = "[{\"bpLocName\":\"Kalasipalayam\",\"bpLocLatitude\"
         switch (v.getId()){
             case R.id.show_map:
 
-                Intent intent = new Intent(MainActivity.this, MapActitivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
                 break;
         }
