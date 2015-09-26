@@ -7,7 +7,7 @@ import android.widget.TextView;
 /**
  * Created by nagesh on 25-Sep-15.
  */
-public class MapActitivity extends Activity{
+public class MapActivity extends Activity{
 
     //TODO display map and the list here
 

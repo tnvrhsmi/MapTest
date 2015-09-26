@@ -18,7 +18,7 @@
         </activity>
 
         <activity
-            android:name=".MapActitivity"
+            android:name=".MapActivity"
             android:label="@string/app_name" >
 
         </activity>
