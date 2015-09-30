@@ -49,6 +49,7 @@ private String sampleData = "[{\"bpLocName\":\"Kalasipalayam\",\"bpLocLatitude\"
             case R.id.show_map:
 
                 Intent intent = new Intent(MainActivity.this, MapActivity.class);
+                intent.putExtra(MapActivity.BUS_LOCATION_DATA,sampleData);
                 startActivity(intent);
                 break;
         }
